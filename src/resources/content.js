@@ -30,17 +30,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Krayt78",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ludovicdomingues/",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "X",
+    icon: "x",
+    link: "https://x.com/Krayt78",
   },
   {
     name: "Email",
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building Polkadot, One Pallet at a Time</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,8 +63,9 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Ludo, a blockchain engineer currently working in the Polkadot ecosystem.
+      I currently working as an educator at the Polkadot Blockchain Academy.
+      I am also a core developer of Polkadot.
     </>
   ),
 };
@@ -83,16 +84,15 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/ludovicdomingues/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am an Ex Game Developer, now a blockchain engineer currently working in the Polkadot ecosystem.
+        I love to build things and learn new things.
       </>
     ),
   },
@@ -101,17 +101,18 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Polkadot Blockchain Academy",
+        timeframe: "Jun 2025 - Present",
+        role: "PBA-X Technical Program Specialist",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Managed instructor schedules and guest speaker coordination, ensuring timely content delivery.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed student-facing resources like guides and reading lists for self-paced learning.
+          </>,
+          <>
+            Monitored LMS engagement metrics and provided insights to enhance course delivery.
           </>,
         ],
         images: [
@@ -125,18 +126,151 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Polkadot",
+        timeframe: "Jan 2025 - Present",
+        role: "Blockchain Developer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Contributed to the Polkadot-SDK using Substrate and Rust.</>,
+          <>Worked on backend operations for decentralized systems.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "LogX Games Studio",
+        timeframe: "Mar 2024 - Dec 2024",
+        role: "Lead Unity Developer",
+        achievements: [
+          <>Developed backend systems and gameplay logic using Unity and C#.</>,
+          <>Implemented networking and multiplayer functionality.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "The Sandbox",
+        timeframe: "Dec 2023 - Feb 2024",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Built backend and frontend for The Sandbox DAO using JavaScript and Solidity.</>,
+          <>Integrated database and updated smart contracts.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "GiveUs",
+        timeframe: "Dec 2022 - Dec 2023",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Developed DAO and donation smart contracts audited by Hacken.</>,
+          <>Built dApp using Solidity, React, and Node.js.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Alyra, l'école blockchain",
+        timeframe: "Oct 2022 - Dec 2023",
+        role: "Solidity Instructor",
+        achievements: [
+          <>Supported students via Discord and graded Solidity assignments.</>,
+          <>Delivered lectures and participated in the certification jury.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Cometh",
+        timeframe: "Oct 2023",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Developed Unity SDK for blockchain account abstraction using C#.</>,
+          <>Built a Node.js backend with REST APIs using TypeScript.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "MetaQuantum",
+        timeframe: "Feb 2023 - Jun 2023",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Developed a blockchain metaverse solution in Unity using C# and Solidity.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Horme",
+        timeframe: "Mar 2023 - May 2023",
+        role: "Back-end Developer",
+        achievements: [
+          <>Created custom APIs and backend infrastructure using Node.js and MongoDB.</>,
+          <>Integrated frontend components for fullstack delivery.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Lootingg",
+        timeframe: "Jul 2022 - Jan 2023",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Developed smart contracts (Marketplace, NFT, ICO) using Solidity.</>,
+          <>Built backend systems using Node.js with Web3 integration.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Mirage Interactive",
+        timeframe: "Sep 2022 - Dec 2022",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Designed SDK/platform for Ankr’s gaming solution with blockchain integration.</>,
+          <>Created APIs, microservices, and advanced Solidity smart contracts.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Ankr",
+        timeframe: "Jan 2022 - Dec 2022",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Developed a game SDK for Unity and integrated blockchain with C#.</>,
+          <>Created ERC20, ERC721, and ERC1155 smart contracts in Solidity.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Meta Apes",
+        timeframe: "Jan 2022 - Aug 2022",
+        role: "Blockchain Developer",
+        achievements: [
+          <>Integrated Ankr's Unity SDK using C# in Unity.</>,
+          <>Built backend systems using JavaScript and Node.js.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "MyMetaverse",
+        timeframe: "Nov 2020 - May 2022",
+        role: "Game Designer & Developer",
+        achievements: [
+          <>Led development of MMORPG MyMeta on Unity3D.</>,
+          <>Produced and designed blockchain-integrated Minecraft server.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Studio XP",
+        timeframe: "Sep 2021 - Jan 2022",
+        role: "Unity & Programming Teacher",
+        achievements: [
+          <>Taught C# and Unity game programming to students during weekends.</>,
+          <>Created engaging educational activities to teach game dev fundamentals.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "EDF",
+        timeframe: "Sep 2019 - Sep 2021",
+        role: "Unity VR Developer Intern",
+        achievements: [
+          <>Built UCareVR and Discover EDF training and recruitment VR experiences.</>,
+          <>Designed immersive simulations in Unity for serious gaming scenarios.</>,
         ],
         images: [],
       },
@@ -147,12 +281,16 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Polkadot Blockchain Academy",
+        description: <>Blockchain Development Curriculum - 2024</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Alyra, l'école blockchain",
+        description: <>Blockchain - Solidity Developper - 2022</>,
+      },
+      {
+        name: "ESIEE-IT",
+        description: <>Masters in Computer Science - 2019-2021</>,
       },
     ],
   },
@@ -161,35 +299,59 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Rust",
+        description: <></>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Solidity",
+        description: <></>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+        ],
+      },
+      {
+        title: "JavaScript",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        ],
+      },
+      {
+        title: "TypeScript",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        ],
+      },
+      {
+        title: "Node.js",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        ],
+      },
+      {
+        title: "React",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        ],
+      },
+      {
+        title: "Rust",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        ],
+      },
+      {
+        title: "Substrate",
+        description: <></>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
         ],
       },
     ],

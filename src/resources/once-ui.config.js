@@ -8,7 +8,7 @@ const routes = {
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/gallery": false,
 };
 
 const display = {
@@ -175,16 +175,17 @@ const mailchimp = {
 const schema = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "Ludovic Domingues",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "ludovic.domingues96@gmail.com",
 };
 
 // social links
 const sameAs = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  linkedin: "https://www.linkedin.com/in/ludovicdomingues/",
+  github: "https://github.com/Krayt78",
+  x: "https://x.com/Krayt78",
+  email: "ludovic.domingues96@gmail.com",
 };
 
 export { display, mailchimp, routes, protectedRoutes, baseURL, fonts, style, schema, sameAs, effects, dataStyle };
