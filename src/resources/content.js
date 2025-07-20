@@ -18,8 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about blockchain, and more specifically Polkadot.
     </>
   ),
 };
@@ -57,9 +56,9 @@ const home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Building Polkadot, One Pallet at a Time</>,
   featured: {
-    display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    display: false, // set to false to hide this section
+  //   title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+  //   href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
