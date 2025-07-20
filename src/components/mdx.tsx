@@ -64,7 +64,7 @@ function createImage({ alt, src, ...props }: MediaProps & { src: string }) {
       marginBottom="16"
       enlarge
       radius="m"
-      aspectRatio="16 / 9"
+      aspectRatio="1 / 1"
       border="neutral-alpha-medium"
       sizes="(max-width: 960px) 100vw, 960px"
       alt={alt}
@@ -75,6 +75,10 @@ function createImage({ alt, src, ...props }: MediaProps & { src: string }) {
 }
 
 function slugify(str: string): string {
+  if (typeof str !== 'string') {
+    return '';
+  }
+  
   return str
     .toLowerCase()
     .replace(/\s+/g, "-") // Replace spaces with -
