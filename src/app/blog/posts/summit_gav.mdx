@@ -1,6 +1,6 @@
 ---
-title: "Web3 Summit, Gaving Wood's Keynote explanation"
-summary: "Explaining Gaving Wood's Keynote"
+title: "Web3 Summit: Gavin Wood's 2025 Keynote Explained"
+summary: "A concise breakdown of Dr. Gavin Wood's vision for Polkadot shared at the 2025 Web3 Summit."
 publishedAt: "2025-04-19"
 tag: "Web3Summit"
 ---
@@ -9,516 +9,255 @@ tag: "Web3Summit"
 
 ## Intro
 
-Here is the overall content of Dr Gavin wood's talk :
+A high-level overview of Dr. Gavin Wood's 2025 Web3 Summit keynote:
 
 ![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_142205801.jpg)
 
-## State of affairs
-Currently the security of polkadot costs 500 million $ per year.
-Polkadot's revenue model is to sell core time in exchange for that security. Unfortunately the cost is not matched by coretime sales revenue yet.
-This wouldnt be a problem if the money stayed in our economy but atm it is difficult to estimate how much of it stays.
-But we know that a lot of stakers live in high-tax jurisdiction forcing liquidation (its not crazy to assume at least 20% tax on said staking rewards).
+## State of Affairs
+
+Polkadot currently spends around $500 million annually on network security. Its revenue comes from selling coretime, but sales haven't yet matched this expense.
+
+A significant issue is capital outflow. Many stakers are in high-tax regions, leading to liquidation. It's estimated that at least 20% of staking rewards are lost to taxes, reducing the ecosystem's retained value.
 
 ## Changes Underway
-Currently we need to increase the value and the ease of access to coretime, which is the main revenue generator of Polkadot.
-Here are the changes underway for;
-Improving the value of coretime:
+
+To increase revenue, Polkadot is enhancing both the **value** and **accessibility** of coretime.
+
+### Increasing Coretime Value:
 - Elastic-Scaling
 - Hub
 - JAM
 
-Improving access to coretime :
-- SDK & better documentation
+### Improving Access:
+- SDK improvements & better docs
 - Ethereum compatibility
 - PDP
 - Bridges
 
-## Near Term thoughts
+## Near-Term Thoughts
 
-### Slides
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_145935641.jpg)
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_150135694.jpg)
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_150247776.jpg)
+To cut inflation and reduce fund outflow, Polkadot aims to lower security costs to $90 million.
 
-### Explanation
-To Fight the current inflation and exodus of funds, the plan is to reduce the security cost of Polkadot to approx 90 million $.
-Here are the suggestions to get there : 
-- Remove nominator slashing.
-- In return increase the bar to be a validator (OpenGov KYC/interview)
-- Allow self stakers to be anonymous
-- Set a fixed reward rate for validators payed in Fiat (ex 5000$ a month)
-- Set a fixed Fiat reward for stakers (e.g. 3% at 1 million$ stake)
-- OpenGov would be able to set those values
+Key proposals:
+- End nominator slashing
+- Raise validator requirements (e.g., KYC via OpenGov)
+- Allow anonymous self-staking
+- Fixed fiat rewards: e.g., $5K/month for validators, 3% annual for stakers
+- OpenGov to manage reward rates
 
-Also Gavin talked about commiting to long-term reponsibility via a fixed issuance curve for Dot.
-This would cap the max issuance to pi billion dots. This issuance curve would decay over time, the exact way would have to be discussed but we think it could be biannually.
-This would mean that like bitcoin, dot would have a capped supply and that as time goes by the amount of tokens minted would reduce until reaching the cap.
+Gavin also proposed a **capped issuance model**, limiting total DOT to π billion. The issuance would decay, potentially biannually, eventually halting new issuance like Bitcoin.
 
-### Decoupling Issuance and Interest: The Buffer Fund Concept
+### Decoupling Issuance & Interest: Buffer Fund
 
-Dr. Wood introduced a crucial economic concept: **"Issuance != Interest."** This fundamental principle decouples the network's token issuance from traditional interest payments to stakers, creating a more flexible economic model.
+**Issuance ≠ Interest**: Token issuance should not directly fund staking rewards.
 
-To manage this new approach, the proposal includes establishing a **"buffer-fund"** that provides governance over economic policy. This fund would dynamically manage token issuance based on network security costs:
+Instead, a **buffer fund** would manage this:
 
-**When Security Costs < Issuance + Sales:**
-- The buffer fund "soaks up" excess issuance
-- Prevents inflationary pressures when security is economically efficient
-- Maintains price stability during periods of low security costs
+- **If Costs < Issuance + Sales**: Buffer absorbs surplus, preventing inflation.
+- **If Costs > Issuance + Sales**: Buffer covers the gap, ensuring secure funding.
 
-**When Security Costs > Issuance + Sales:**
-- The buffer fund "subsidises" the deficit
-- Ensures adequate funding for network security
-- Maintains robust security even during high-cost periods
+This model provides economic flexibility and resilience.
 
-This buffer fund mechanism creates a more stable and predictable economic environment, where security costs are managed independently of fixed interest rates, allowing for greater flexibility and resilience against market fluctuations.
+## Mid-Term Thoughts
 
-## Mid Term thoughts
-## Slides
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_150503195.jpg)
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_150623826.jpg)
-![Web3 Summit Photo 5](/images/blog/web3summit/PXL_20250716_150906648.jpg)
+### Native Decentralized Stablecoin
 
-## Explanation
+Dr. Wood proposed replacing DOT + USDC/T with a native stablecoin to:
+- Reduce dependency on external providers
+- Simplify cross-chain payments
+- Improve cost and transaction efficiency
 
-### Native Decentralized Stablecoin Strategy
+### PoP for Security Efficiency
 
-Dr. Wood's mid-term vision focuses on developing a **native, decentralized stablecoin** as a core component of Polkadot's economic infrastructure. This represents a strategic shift away from relying on external stablecoins.
+By using **Proof of Personhood**:
+- Security shifts from pure staking to identity-based participation
+- Lower capital costs
+- Inclusive and resilient
 
-**Key Strategic Changes:**
+### 1-Benefits:
+- **Economic independence**
+- **Lower costs**
+- **Better UX**
 
-1. **Move outgoing payments from DOT+USDC/T into native stablecoin**
-   - Transition away from using DOT combined with external stablecoins (USDC/USDT)
-   - Create a self-contained economic ecosystem within Polkadot
-   - Reduce dependency on external stablecoin providers
-   - Improve transaction efficiency and reduce cross-chain complexity
+### Individuality System for Governance & Security
 
-2. **Utilize PoP to further reduce security costs**
-   - Implement **Proof of Personhood (PoP)** mechanisms
-   - Leverage personhood-based security models instead of pure staking
-   - Achieve greater cost efficiency in network security
-   - Create more inclusive participation models
+Polkadot's new **anti-sybil scheme** shifts from staking to:
+- Vote-weighted governance
+- Incentivized validator backing
+- Validator voting caps
+- Easy voter-validator matching
+- Validator eligibility via PoP, stake, and votes
+- Ban poor validators and voters
 
-### Benefits of This Approach:
+### 2-Benefits:
+- **Reduced costs**
+- **Stronger security**
+- **Democratized governance**
 
-**Economic Independence:**
-- Reduces reliance on external stablecoin providers
-- Creates a more self-sufficient Polkadot ecosystem
-- Provides better control over monetary policy within the network
+### Core Disabling in JAM v1.1
 
-**Cost Efficiency:**
-- PoP mechanisms can be more cost-effective than traditional staking
-- Reduces the overall security costs of the network
-- Enables more participants to contribute to network security
+Inactive or non-profitable cores can be disabled, saving on validator expenses. This boosts:
+- Economic efficiency
+- Resource allocation
+- Scalability
 
-**User Experience:**
-- Simplified payment flows using native stablecoin
-- Reduced complexity in cross-chain transactions
-- More predictable transaction costs and settlement times
+## Far-Term Thoughts
 
-This mid-term strategy represents a significant evolution toward a more autonomous and efficient Polkadot ecosystem, with the native stablecoin serving as the foundation for internal economic activity.
 
-### Leveraging Polkadot Individuality System
+### JAM & zkJAM Cost Analysis
 
-Dr. Wood's strategy also includes leveraging the **new Polkadot Individuality system** to reduce security costs through a **strong anti-sybil scheme**. This approach can make a major contribution to security while reducing overall costs.
+- zkJAM core: ~$9.3M/year (with 50% overhead)
+- Elves/JAM core: ~$916K/year
+- With optimizations (PoP, fixed rewards): JAM core cost could drop to ~$144K/year
 
-**Key Components of the Anti-Sybil Scheme:**
+### Conclusion
 
-1. **Switch staking for voting**
-   - Move from pure staking mechanisms to voting-based participation
-   - Create more democratic governance structures
-   - Reduce capital requirements for participation
+To make zkJAM viable:
 
-2. **Increase weight of voters who back good validators**
-   - Reward voters who support reliable validators
-   - Create incentives for quality validator selection
-   - Improve overall network reliability
+1. **Cut proving costs by 10–100x**
+2. **Open-source GPU tooling** for proof generation
+3. **Mid-term zk strategy**:
+   - Optimize PVM execution proofs
+   - Build modular, open distributed proof systems
 
-3. **Limit vote count of validators**
-   - Prevent concentration of voting power
-   - Ensure decentralization of the network
-   - Maintain fair distribution of influence
+4. **Evolve to zkPoPJAM**:
+   - Elves/PoPJAM = cost-effective security
+   - zkPoPJAM = max security, linear cost
 
-4. **Easy match-making** 
-   - Simplify the process of connecting voters with validators
-   - Improve user experience in the governance system
-   - Increase participation rates
-
-5. **Validators require PoP, stake and votes**
-   - Multi-factor requirements for validator participation
-   - Proof of Personhood ensures unique identity
-   - Combined stake and voting requirements for security
-
-6. **Ban bad validators & their voters**
-   - Implement consequences for poor performance
-   - Create accountability mechanisms
-   - Maintain network quality and security
-
-### Benefits of This Approach:
-
-**Cost Reduction:**
-- Anti-sybil mechanisms reduce the need for expensive staking requirements
-- Voting-based participation is more cost-effective than pure staking
-- Proof of Personhood provides security without high capital costs
-
-**Improved Security:**
-- Multi-factor validation requirements enhance network security
-- Accountability mechanisms prevent malicious behavior
-- Decentralized voting prevents concentration of power
-
-**Better Governance:**
-- Democratic voting structures improve network governance
-- Quality-based rewards incentivize good behavior
-- Simplified participation increases engagement
-
-This comprehensive approach combines economic innovation (native stablecoin) with governance improvements (Individuality system) to create a more efficient, secure, and inclusive Polkadot ecosystem.
-
-### Core-Disabling in JAM (v1.1)
-
-Another crucial mid-term strategy is the introduction of **core-disabling into JAM (v1.1)**. This mechanism addresses the economic efficiency of validator operations and core utilization.
-
-**Purpose and Benefits:**
-
-- **Cost Management**: If a core does not generate sufficient monthly costs (i.e., it's not economically viable or active)
-- **Disability Feature**: The system will introduce the ability to disable that core
-- **Validator Cost Avoidance**: By disabling non-performing cores, the network can avoid most of the associated validator costs
-
-**Economic Impact:**
-
-This feature ensures that resources are not wasted on underutilized or unprofitable cores, leading to:
-- Significant cost savings for the network
-- Improved overall economic efficiency
-- Better resource allocation
-- Enhanced network sustainability
-
-**Operational Benefits:**
-
-- **Dynamic Resource Management**: Cores can be enabled/disabled based on demand and profitability
-- **Reduced Waste**: Eliminates costs associated with inactive or unprofitable cores
-- **Scalability**: Allows the network to scale resources up or down based on actual usage
-- **Economic Sustainability**: Contributes to the long-term financial health of the Polkadot ecosystem
-
-This core-disabling mechanism represents a practical approach to cost optimization, ensuring that the network only pays for active, economically viable cores while maintaining the flexibility to reactivate them when conditions improve.
-
-## Far Term thoughts
-## Slides
-
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_144331753.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_144358020.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_144522193.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_144536638.jpg)
-
-## Explanation
-
-## JAM & ZkJAM
-
-At the moment the estimated ideal attainable annual cost for continuois execution proving of a single zkJAM core is 9,315,426$. 
-This assumes the ability to disctribute at 50% cost overhead.
-
-For comparison, a single Elves/Jam core's estimated annual cost is 916,800$
-
-If we take into parameters the changes that were proposed in the [[Near Term thoughts chapter]], then it is estimated that a single code of Elves/JAM could cost 270k$ per year to run.
-
-If we also take into account proof of personhood and a fixed fiat reward rate for validators of 4k$/month then the price of runnign a core of Elves/JAM could be reduced to 144k$/year.
-
-## In conclusion
-
-## Slides
-
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_144705328.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_145011893.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_145117198.jpg)
-
-## Explanation
-
-Based on Dr. Gavin Wood's analysis, making zkJAM a sensible idea would require several key developments:
-
-### 1. **Dramatic Reduction in Proof Costs**
-The current estimated annual cost for continuous execution proving of a single zkJAM core is $9.3 million. To make this economically viable, proof costs need to reduce by **10-100x further**. This would require:
-- Breakthroughs in zero-knowledge proof technology
-- More efficient proving algorithms
-- Hardware acceleration improvements
-
-### 2. **Open Source Tooling for GPU Distribution**
-Developing robust, open-source tooling for efficient distribution of proof generation into GPU clusters is essential. This would:
-- Reduce the 50% cost overhead currently assumed
-- Enable better resource utilization
-- Lower barriers to entry for validators
-
-### 3. **Proposed zk Strategy (Mid-term)**
-Dr. Wood outlined a specific mid-term strategy for advancing zk technology:
-
-**Collaborate, support and develop well-optimized proof-generation tooling** - Since state-of-the-art solutions are currently closed source, there's a critical need for open-source alternatives that can compete with proprietary solutions.
-
-**Focus particularly on:**
-- **PVM execution proofs** - Optimizing proof generation for Polkadot's ParaVM execution environment
-- **Distributed proof-generation** - Creating systems that can efficiently distribute proof generation across multiple nodes
-- **Modular, open system** - Building a flexible architecture capable of keeping up with rapidly evolving state-of-the-art zk technology
-
-### 4. **Far-term Evolution: zkPoPJAM Strategy**
-The long-term vision involves evolving into **zkPoPJAM** with specific prerequisites and multi-modal security:
-
-**Prerequisites for zkPoPJAM:**
-- zk technology must drop in price sufficiently
-- Economically insufficient cores utilization must be addressed
-
-**Multi-modal Security Development:**
-- **Elves/PoPJAM**: Provides "good security level at minimal marginal cost"
-- **ZkPoPJAM**: Offers "ultimate" security at substantial but linear cost
-
-**Technical Requirements:**
-- **Settlement/JAM-chain correctness** through recursive zk-proof
-- **Finality and storage** via anti-sybil POP-based mechanisms
-
-### 5. **Market Differentiation Strategy**
-Creating clear market differentiation between perfect security (zkJAM) and bounded security (Elves/JAM) is crucial. The ecosystem needs:
-- Clear value propositions for each approach
-- Understanding of when perfect security justifies the cost premium
-- Market demand that can support the higher costs
-
-### 6. **Alternative Security Models**
-Exploring non-stake-based protocols for secure storage and settlement could provide:
-- More cost-effective security mechanisms
-- Reduced reliance on expensive staking requirements
-- New economic models for network security
-
-### 7. **Economic Viability Threshold**
-Currently, a single Elves/JAM core could cost as little as $144k/year with proposed optimizations, while zkJAM remains at $9.3 million. For zkJAM to become sensible, either:
-- The cost gap must narrow significantly (zkJAM costs need to drop to under $1 million/year)
-- Or the value proposition of perfect security must justify the 65x cost premium
-
-### The Path Forward
-zkJAM represents an ambitious vision for perfect security in blockchain execution, but its adoption depends on solving fundamental economic and technical challenges. The success of this approach will require coordinated progress across cryptography research, hardware optimization, and market development. The mid-term zk strategy provides a clear roadmap for developing the necessary tooling and infrastructure, while the far-term vision of zkPoPJAM offers a multi-modal security approach that can adapt to different cost and security requirements. The evolution from JAM to zkPoPJAM will be driven by cost reductions and the need for different security levels in the ecosystem.
-
+5. **Market differentiation** between Elves/JAM and zkJAM
+6. **Explore non-staking security models**
+7. **Narrow the cost gap** or prove zk-level security is worth the premium
 
 ## Privacy
-### Slides
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_151154889.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_151205878.jpg)
-
-### Explanation
-
-### Personal Privacy: Legal Framework and Technology's Role
-
-Dr. Wood addressed the fundamental nature of personal privacy in the context of Web3 and blockchain technology, emphasizing the distinction between legal rights and technological capabilities.
-
-**Legal Foundation of Privacy:**
-
-"Many jurisdictions explicitly make affordances for personal privacy" - This statement highlights that privacy is not just a technological concept but a **legal right** recognized by governments and legal systems worldwide. Various jurisdictions have established frameworks, regulations, and protections for personal privacy, including:
-- Data protection laws (GDPR, CCPA, etc.)
-- Constitutional privacy rights
-- Industry-specific privacy regulations
-- International privacy agreements
-
-**Technology's Enabling Role:**
-
-The slide presents two key principles about technology and privacy:
-
-1. **"Will always be a case of users exercising whatever legal rights they have"**
-   - Privacy protection ultimately depends on users understanding and exercising their legal rights
-   - Technology can provide tools, but users must actively assert their privacy rights
-   - Legal frameworks provide the foundation for privacy protection
-
-2. **"Tech can only enable, not guide"**
-   - Technology serves as an enabler for privacy protection
-   - Technology cannot replace or override legal frameworks
-   - The responsibility for privacy protection lies with legal systems and user action
-
-**Implications for Web3 and Polkadot:**
-
-This perspective has important implications for blockchain technology:
-
-**User Empowerment:**
-- Users must be educated about their privacy rights
-- Technology should provide tools for users to exercise their rights
-- Privacy protection requires active user participation
-
-**Legal Compliance:**
-- Blockchain projects must respect existing privacy laws
-- Technology should be designed to enable legal compliance
-- Privacy features should align with legal frameworks
-
-**Technology Design:**
-- Build privacy-enabling features rather than privacy-guiding systems
-- Provide users with tools to protect their privacy
-- Ensure technology supports rather than replaces legal rights
-
-This approach emphasizes that while blockchain technology can provide powerful privacy tools, the ultimate protection of personal privacy depends on legal frameworks and user awareness of their rights.
-
-### Privacy Tooling and the Individuality System
-
-Dr. Wood further elaborated on how privacy is practically implemented through technology, specifically through **tooling designed to help exercise personal privacy within documented and accepted limits of reason**.
-
-**The Role of Privacy Tooling:**
-
-This tooling serves several important functions:
-- **Enables Privacy Exercise**: Provides users with practical tools to assert their privacy rights
-- **Operates Within Reasonable Limits**: Functions within established legal and ethical boundaries
-- **Balances Privacy and Functionality**: Ensures privacy protection without compromising system usability
-- **Complies with Legal Frameworks**: Works within documented and accepted legal parameters
-
-**Integration with the Individuality System:**
-
-The slide specifically mentions that this privacy tooling is **"Already being used for elements of Individuality system."** This reveals a practical application of privacy-enhancing technologies within Polkadot's broader Individuality framework.
-
-**Key Applications:**
-
-1. **Identity Management**: Privacy tooling helps users control their identity information within the Individuality system
-2. **Data Protection**: Ensures personal data is handled according to privacy principles
-3. **User Control**: Provides users with tools to manage their privacy preferences
-4. **Legal Compliance**: Ensures the Individuality system operates within privacy laws and regulations
-
-**Benefits of This Integration:**
-
-- **Practical Privacy**: Users have concrete tools to protect their privacy
-- **System Integration**: Privacy features are built into the core Individuality system
-- **Legal Alignment**: Technology operates within established legal frameworks
-- **User Empowerment**: Individuals can actively manage their privacy within the ecosystem
-
-This approach demonstrates how Polkadot is implementing privacy not just as a concept, but as a practical, tool-enabled feature that users can actively exercise within the Individuality system, all while respecting legal boundaries and reasonable limits.
 
 
-## Pop (Proof-of-Personhood)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_151518715.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_151716885.jpg)
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_151830435.jpg)
+### Legal Privacy vs Tech-Enabled Privacy
 
-### Explanation
+Dr. Wood stressed that **privacy is a legal right**, not just a tech feature.
 
-### Individuality: The Polkadot Native Proof-of-Personhood System
+Tech must:
+- Enable users to exercise legal rights
+- Avoid overstepping into governance
 
-Dr. Wood presented **Individuality** as Polkadot's native Proof-of-Personhood (PoP) system, describing it as a potential "silver bullet" for addressing key challenges in the blockchain ecosystem.
+Implication for Web3:
+- Design tools that empower, not control
+- Align privacy tooling with laws
 
-**Core Concept:**
+### Privacy Tooling & Individuality
 
-Individuality represents a comprehensive approach to establishing unique human identity on the blockchain without compromising privacy or relying on centralized authorities. The system is designed to provide strong sybil resistance while maintaining Web3 ideals.
+Privacy tooling in Polkadot’s Individuality system:
+- Empowers users with legal-compliant privacy tools
+- Supports identity and data protection
+- Enables user control
+- Already in use within governance and identity flows
 
-**Web3 Ideals Alignment:**
+## PoP (Proof-of-Personhood)
 
-The system is built around three fundamental principles:
 
-1. **"No confessional"** - No centralized authority that holds or controls identity information
-2. **"No key-master"** - No single entity that can access or manipulate the system
-3. **"zk-powered privacy"** - Uses zero-knowledge proofs to protect user privacy
-4. **"No reliance whatsoever on authorities"** - Complete decentralization and user sovereignty
 
-**Potential Impact:**
+### Individuality: Polkadot's PoP System
 
-Dr. Wood emphasized that Individuality could be a **"game-changer"** for multiple blockchain applications:
+**Individuality** offers decentralized identity with:
+- No central control
+- zk-proof privacy
+- Full user sovereignty
 
-**Strong Sybil Resistance:**
-- Provides a vector to dramatically increase participation
-- Reduces capital needs and costs
-- Enables more inclusive participation models
+### Applications:
+- Cost-efficient staking
+- Secure stablecoin systems
+- More trustworthy oracles
+- Stronger governance
 
-**Broad Applications:**
-- **Staking**: More efficient and inclusive staking mechanisms
-- **Stablecoin**: Enhanced security and compliance for stablecoin systems
-- **Marketing**: Better targeting and user engagement
-- **Oracles**: Improved reliability and trust in data feeds
-- **Governance**: More democratic and representative voting systems
+### Launch Plan:
+- **Q4 2025**: Launch DIM1 (POI) and DIM2 (POVI)
+- $3M treasury proposal for the “Fairest Airdrop Ever”
 
-**Launch Timeline and Implementation:**
-
-The system is scheduled to launch in **Q4 2025** with two key components:
-
-1. **DIM1 (POI)** - Proof of Individuality
-2. **DIM2 (POVI)** - Proof of Verified Individuality
-
-**Treasury Proposal:**
-- A significant treasury proposal is planned: **$3 million for "Fairest Airdrop Ever"**
-- This suggests a major distribution event to onboard users to the Individuality system
-- The "fairest" designation implies sophisticated anti-sybil mechanisms to ensure equitable distribution
-
-**Strategic Significance:**
-
-Individuality represents a fundamental shift in how identity and participation are managed in the Polkadot ecosystem:
-
-**Economic Benefits:**
-- Reduces security costs through better sybil resistance
-- Enables more efficient capital allocation
-- Creates more inclusive participation models
-
-**Technical Innovation:**
-- Combines privacy-preserving technology with identity verification
-- Uses zero-knowledge proofs to maintain privacy
-- Provides strong sybil resistance without centralized control
-
-**Ecosystem Impact:**
-- Enables new use cases across multiple blockchain applications
-- Improves governance and participation mechanisms
-- Creates a foundation for more sophisticated DeFi and social applications
-
-This system represents a key component of Polkadot's long-term vision, providing the identity infrastructure needed to support the broader economic and governance improvements outlined in the near and mid-term strategies.
+This system enhances sybil resistance, expands participation, and supports long-term economic reforms.
 
 ## Polkadot's Stablecoin
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_152641278.jpg)
 
-### Explanation
 
-### Target: A Stablecoin Worthy of a Web3 World
 
-Dr. Wood outlined the vision for Polkadot's stablecoin initiative, setting clear targets for what constitutes a stablecoin worthy of the Web3 ecosystem. The goal is to create a stablecoin that embodies the core principles of decentralization and innovation.
 
-**Core Characteristics:**
+### A Web3-Native Stablecoin
 
-The target stablecoin should be:
+Gavin outlined the goal for a true Web3 stablecoin—one that is:
+- Decentralized
+- Rational
+- Capital-efficient
+- Inclusive
+- Scalable
+- Universal
 
-1. **Decentralised** - No single point of control or failure, distributed across the network
-2. **Sound/Rational** - Based on solid economic principles and sustainable mechanisms
-3. **Capital-efficient** - Optimizes the use of capital while maintaining stability
-4. **Inclusive** - Accessible to a broad range of users and use cases
-5. **Scalable** - Can grow to meet increasing demand without compromising performance
-6. **Universal** - Applicable across different jurisdictions and use cases
+### Strategy:
+- Avoid reliance on USDC/T
+- Focus on sound economic design
+- Seamless Polkadot integration
 
-**Strategic Significance:**
-
-This target represents a comprehensive approach to stablecoin design that addresses the limitations of existing solutions:
-
-**Decentralization Focus:**
-- Moves away from centralized stablecoins that rely on single entities
-- Aligns with Web3 principles of distributed control
-- Reduces counterparty risk and single points of failure
-
-**Economic Soundness:**
-- Emphasizes rational economic design over short-term gains
-- Focuses on long-term sustainability and stability
-- Addresses the fundamental challenges of maintaining peg stability
-
-**Efficiency and Accessibility:**
-- Capital efficiency ensures optimal resource utilization
-- Inclusivity broadens access to stablecoin benefits
-- Scalability supports ecosystem growth
-
-**Universal Application:**
-- Designed to work across different regulatory environments
-- Applicable to various use cases and jurisdictions
-- Supports global adoption and interoperability
-
-**Integration with Polkadot Ecosystem:**
-
-This stablecoin vision aligns with the broader Polkadot strategy:
-
-- **Economic Independence**: Supports the move away from external stablecoins (USDC/USDT)
-- **Cost Efficiency**: Contributes to the overall cost reduction goals
-- **Governance Integration**: Can leverage the Individuality system for enhanced security
-- **Scalability**: Supports the growth of the Polkadot ecosystem
-
-**Challenges and Opportunities:**
-
-Creating a stablecoin with all these characteristics presents significant challenges but also offers substantial opportunities:
-
-- **Technical Innovation**: Requires novel approaches to stability mechanisms
-- **Regulatory Navigation**: Must work within diverse global regulatory frameworks
-- **Economic Design**: Needs sophisticated economic models for sustainability
-- **Ecosystem Integration**: Must seamlessly integrate with existing Polkadot infrastructure
-
-This target represents a bold vision for what a Web3-native stablecoin should be, setting high standards for innovation, decentralization, and practical utility in the blockchain ecosystem.
+This stablecoin vision supports the broader roadmap of ecosystem independence and robust infrastructure.
 
 ## Oracles
-![Web3 Summit Photo 4](/images/blog/web3summit/PXL_20250716_152034498.jpg)
+
+Polkadot’s upcoming **Oracle** system is designed to support the **DIM1** identity framework and is tightly integrated with the **Individuality** system.
+
+**Key Functions:**
+- Acts as a general-purpose oracle layer
+- Initially focused on verifying **Web2 credentials** and performing **OpenGov KYC**
+- Provides trusted, decentralized data feeds necessary for identity verification and governance participation
+
+**Use Cases:**
+- Confirm social or professional credentials (e.g. LinkedIn, GitHub, government ID)
+- Verify KYC compliance for validator candidates and voters in OpenGov
+- Enable broader interoperability between Web2 identity and Web3 participation
+
+This Oracle system lays the groundwork for decentralized identity assurance, making it a critical component of Polkadot’s governance and identity roadmap.
 
 ## Outposts
 
-## Slides
+### What Are Outposts?
 
+**Outposts** are decentralized physical or digital spaces powered by Web3 technologies. They are designed to reduce the trust and overhead required to manage private spaces in a decentralized way.
+
+These systems blend:
+- **Individuality** (identity system)
+- **Space provisioning**
+- **On-chain collectives**
+- **Cryptographic tools**
+- **Hardware**
+- **Effective user interfaces**
+
+Together, they enable autonomous, self-sustaining Web3 environments with minimal reliance on centralized authorities.
+Imagine going into an office space and being allowed in with just your web3 identity and no other credentials needed.
+
+### Current Development
+
+Three outposts are currently in development, with more planned:
+
+- **The Emergent College** – Lisbon  
+- **Club Kusama** – Berlin  
+- **Single Malta** – Malta  
+
+Each Outpost represents a live experiment in applying decentralized governance, identity, and infrastructure to real-world community spaces.
+
+
+### Slides from Web3 Summit 2025
+
+![Slide](/images/blog/web3summit/PXL_20250716_141453980.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_142007226.MP.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_142009983.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_143737563.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_143813444.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_144334542.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_144705328.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145011893.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145117198.MP.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145352156.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145602801.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145812861.MP.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_145935641~2.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_151154889.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_151511463.MP.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_152432141.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_152557251.jpg)
+![Slide](/images/blog/web3summit/PXL_20250716_152737975.jpg)
 
